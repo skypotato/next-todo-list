@@ -1,6 +1,10 @@
 # next-todo-list
 Next 공부를 목적으로 한 레파지토리입니다.
 
+## 참고
+
+- [클론 코딩으로 시작하는 Next.js](https://github.com/bjpublic/next.js)
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
