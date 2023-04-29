@@ -7,3 +7,9 @@
 # next.js 프로젝트 생성
 npx create-next-app@latest
 ```
+- 2023.04.29 : todo-list 클론 코딩 시작
+```shell
+# styled-components 추가
+npm install styled-components
+npm install --save @types/styled-components
+```
