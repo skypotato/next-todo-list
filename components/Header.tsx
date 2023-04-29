@@ -16,7 +16,7 @@ const Container = styled.div`
 const Header: React.FC = () => {
     return (
         <Container>
-            <h1>Jerrynim's TodoList</h1>
+            <h1>Skypotato's TodoList</h1>
         </Container>
     );
 };
