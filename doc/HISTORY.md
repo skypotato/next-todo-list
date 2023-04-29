@@ -12,4 +12,7 @@ npx create-next-app@latest
 # styled-components 추가
 npm install styled-components
 npm install --save @types/styled-components
+# styled-reset 추가
+npm i styled-reset
+npm 
 ```
