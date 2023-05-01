@@ -14,5 +14,9 @@ npm install styled-components
 npm install --save @types/styled-components
 # styled-reset 추가
 npm i styled-reset
-npm 
+```
+- 2023.05.01 : redux 추가
+```shell
+# redux 추가
+npm install react-redux
 ```
