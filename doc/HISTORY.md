@@ -20,3 +20,9 @@ npm i styled-reset
 # redux 추가
 npm install react-redux
 ```
+- 2023.05.05 : lodash 추가
+```shell
+# lodash 추가
+npm i --save lodash
+npm install --save @types/lodash
+```
