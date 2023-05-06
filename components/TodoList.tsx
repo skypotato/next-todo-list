@@ -128,11 +128,11 @@ const Container = styled.div`
 `;
 
 const TodoList: React.FC = () => {
-  return (
-      <Container>
-        <h1>TodoList</h1>
-      </Container>
-  );
+  // return (
+  //     <Container>
+  //       <h1>TodoList</h1>
+  //     </Container>
+  // );
 
   // const todos = useSelector((state) => state.todo.todos);
   // const dispatch = useDispatch();
@@ -230,66 +230,66 @@ const TodoList: React.FC = () => {
   //   }
   // };
   //
-  // return (
-  //   <Container>
-  //     <div className="todo-list-header">
-  //       <p className="todo-list-last-todo">
-  //         남은TODO<span>{todos.length}개</span>
-  //       </p>
-  //       <div className="todo-list-header-colors">
-  //         {Object.keys(todoColorNums).map((color, index) => (
-  //           <div className="todo-list-header-color-num" key={index}>
-  //             <div className={`todo-list-header-round-color bg-${color}`} />
-  //             <p>{todoColorNums[color]}개</p>
-  //           </div>
-  //         ))}
-  //       </div>
-  //     </div>
-  //     <ul className="todo-list">
-  //       {todos.map((todo) => (
-  //         <li className="todo-item" key={todo.id}>
-  //           <div className="todo-left-side">
-  //             <div className={`todo-color-block bg-${todo.color}`} />
-  //             <p
-  //               className={`todo-text ${
-  //                 todo.checked ? "checked-todo-text" : ""
-  //               }`}
-  //             >
-  //               {todo.text}
-  //             </p>
-  //           </div>
-  //           <div className="todo-right-side">
-  //             {todo.checked && (
-  //               <>
-  //                 <TrashCanIcon
-  //                   className="todo-trash-can"
-  //                   onClick={() => {
-  //                     deleteTodo(todo.id);
-  //                   }}
-  //                 />
-  //                 <CheckMarkIcon
-  //                   className="todo-check-mark"
-  //                   onClick={() => {
-  //                     checkTodo(todo.id);
-  //                   }}
-  //                 />
-  //               </>
-  //             )}
-  //             {!todo.checked && (
-  //               <button
-  //                 type="button"
-  //                 className="todo-button"
-  //                 onClick={() => {
-  //                   checkTodo(todo.id);
-  //                 }}
-  //               />
-  //             )}
-  //           </div>
-  //         </li>
-  //       ))}
-  //     </ul>
-  //   </Container>
-  // );
+  return (
+    <Container>
+      <div className="todo-list-header">
+        <p className="todo-list-last-todo">
+          {/*남은TODO<span>{todos.length}개</span>*/}
+        </p>
+        <div className="todo-list-header-colors">
+          {/*{Object.keys(todoColorNums).map((color, index) => (*/}
+          {/*  <div className="todo-list-header-color-num" key={index}>*/}
+          {/*    <div className={`todo-list-header-round-color bg-${color}`} />*/}
+          {/*    <p>{todoColorNums[color]}개</p>*/}
+          {/*  </div>*/}
+          {/*))}*/}
+        </div>
+      </div>
+      <ul className="todo-list">
+        {/*{todos.map((todo) => (*/}
+        {/*  <li className="todo-item" key={todo.id}>*/}
+        {/*    <div className="todo-left-side">*/}
+        {/*      <div className={`todo-color-block bg-${todo.color}`} />*/}
+        {/*      <p*/}
+        {/*        className={`todo-text ${*/}
+        {/*          todo.checked ? "checked-todo-text" : ""*/}
+        {/*        }`}*/}
+        {/*      >*/}
+        {/*        {todo.text}*/}
+        {/*      </p>*/}
+        {/*    </div>*/}
+        {/*    <div className="todo-right-side">*/}
+        {/*      {todo.checked && (*/}
+        {/*        <>*/}
+        {/*          <TrashCanIcon*/}
+        {/*            className="todo-trash-can"*/}
+        {/*            onClick={() => {*/}
+        {/*              deleteTodo(todo.id);*/}
+        {/*            }}*/}
+        {/*          />*/}
+        {/*          <CheckMarkIcon*/}
+        {/*            className="todo-check-mark"*/}
+        {/*            onClick={() => {*/}
+        {/*              checkTodo(todo.id);*/}
+        {/*            }}*/}
+        {/*          />*/}
+        {/*        </>*/}
+        {/*      )}*/}
+        {/*      {!todo.checked && (*/}
+        {/*        <button*/}
+        {/*          type="button"*/}
+        {/*          className="todo-button"*/}
+        {/*          onClick={() => {*/}
+        {/*            checkTodo(todo.id);*/}
+        {/*          }}*/}
+        {/*        />*/}
+        {/*      )}*/}
+        {/*    </div>*/}
+        {/*  </li>*/}
+        {/*))}*/}
+      </ul>
+    </Container>
+  );
 };
 
 export default TodoList;
