@@ -26,3 +26,4 @@ npm install react-redux
 npm i --save lodash
 npm install --save @types/lodash
 ```
+- 2023.05.06 : 
